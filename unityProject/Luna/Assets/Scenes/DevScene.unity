@@ -9201,7 +9201,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -11732,9 +11732,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1909627487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0b435e226b458f4a8e49429b2a2b67d, type: 3}
+  m_Script: {fileID: 11500000, guid: 158460e621f57d74fa3aafd786e59f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 3c383989116f8924abd90b189b8a5f7f, type: 2}
+  resolutionDropdown: {fileID: 472710955}
+  soundSlider: {fileID: 488331301}
 --- !u!114 &1909627489
 MonoBehaviour:
   m_ObjectHideFlags: 0

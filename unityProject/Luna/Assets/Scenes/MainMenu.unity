@@ -967,10 +967,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 536428771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0b435e226b458f4a8e49429b2a2b67d, type: 3}
+  m_Script: {fileID: 11500000, guid: 158460e621f57d74fa3aafd786e59f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: 3e839ea8233ebd34c89d1f5da2fb9761, type: 2}
+  audioMixer: {fileID: 24100000, guid: 3c383989116f8924abd90b189b8a5f7f, type: 2}
   resolutionDropdown: {fileID: 1092601982}
   soundSlider: {fileID: 1382856784}
 --- !u!1 &587472528
@@ -2219,7 +2219,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 536428775}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_TargetAssemblyTypeName: settingsMenu, Assembly-CSharp
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -2586,7 +2586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelToLoad: DevScene
-  settingsWindow: {fileID: 0}
+  settingsWindow: {fileID: 536428771}
 --- !u!1 &1634753105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,7 +2692,7 @@ AudioSource:
   m_GameObject: {fileID: 1670766143}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 3e839ea8233ebd34c89d1f5da2fb9761, type: 2}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 3c383989116f8924abd90b189b8a5f7f, type: 2}
   m_audioClip: {fileID: 8300000, guid: 9bea18a9e22ee8542b4fe452174bb9d2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
