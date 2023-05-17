@@ -154,7 +154,7 @@ public class CharacterMotor : MonoBehaviour {
                 Debug.DrawLine(rayHit.transform.position, hit.point, Color.red);
  
                 if (hit.transform.tag == "Enemy") {
-                    //hit.transform.GetComponent<enemyAi>().ApplyDammage(playerInv.currentDamage);
+                    hit.transform.GetComponent<enemyAi>().ApplyDammage(playerInv.currentDamage);
                 }
  
             }
